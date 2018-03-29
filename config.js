@@ -2,51 +2,59 @@
 	"pairs": {
 		"poloniex": {
 			"BTC-ETH": {
-				"strategy": "emotionless",
+				"strategy": "stepgaintssl",
 				"override": {}
-			}
-		},
-		"bittrex": {
-			"BTC-ETC": {
-				"strategy": "emotionless",
-				"override": {}
-			}
-		},
-		"kraken": {
-			"BTC-ETH": {
-				"strategy": "emotionless",
+			},	
+			"BTC-LTC": {
+				"strategy": "stepgaintssl",
+				"override": {}	
+			},
+			"BTC-XMR": {
+				"strategy": "stepgaintssl",
 				"override": {}
 			},
-			"BTC-GNO": {
-				"strategy": "emotionless",
+			"BTC-XRP": {
+				"strategy": "stepgaintssl",
 				"override": {}
 			},
-			"EUR-BTC": {
-				"strategy": "emotionless",
+			"BTC-DASH": {
+				"strategy": "stepgaintssl",
 				"override": {}
-			}
-		},
-		"cryptopia": {
+			},
+			"BTC-BURST": {
+				"strategy": "stepgain",
+				"override": {}
+			},
+			"BTC-PPC": {
+				"strategy": "stepgain",
+				"override": {}
+			},
 			"BTC-DOGE": {
-				"strategy": "emotionless",
+				"strategy": "stepgain",
 				"override": {}
-			}
-		},
-		"bitfinex": {
-			"BTC-IOTA": {
-				"strategy": "emotionless",
+			},
+			"BTC-BCN": {
+				"strategy": "stepgain",
 				"override": {}
-			}
-		},
-		"binance": {
-			"BTC-IOT": {
-				"strategy": "emotionless",
+			},
+			"BTC-BCH": {
+				"strategy": "stepgain",
 				"override": {}
-			}
-		},
-		"cex": {
-			"USD-BTC": {
-				"strategy": "emotionless",
+			},
+			"BTC-STR": {
+				"strategy": "stepgain",
+				"override": {}
+			},
+			"BTC-ETC": {
+				"strategy": "stepgain",
+				"override": {}
+			},
+			"BTC-DCR": {
+				"strategy": "stepgain",
+				"override": {}
+			},
+			"BTC-ZEC": {
+				"strategy": "stepgain",
 				"override": {}
 			}
 		}
@@ -1020,47 +1028,11 @@
 		}
 	},
 	"exchanges": {
-		"bittrex": {
-			"masterkey": "",
-			"mastersecret": "",
-			"key": "",
-			"secret": ""
-		},
 		"poloniex": {
-			"masterkey": "",
-			"mastersecret": "",
-			"key": "",
-			"secret": ""
-		},
-		"kraken": {
-			"masterkey": "",
-			"mastersecret": "",
-			"key": "",
-			"secret": ""
-		},
-		"cryptopia": {
-			"masterkey": "",
-			"mastersecret": "",
-			"key": "",
-			"secret": ""
-		},
-		"bitfinex": {
-			"masterkey": "",
-			"mastersecret": "",
-			"key": "",
-			"secret": ""
-		},
-		"binance": {
-			"masterkey": "",
-			"mastersecret": "",
-			"key": "",
-			"secret": ""
-		},
-		"cex": {
-			"masterkey": "",
-			"mastersecret": "",
-			"key": "",
-			"secret": ""
+			"masterkey": "0GZZ69LS-MOLEYLRI-R43FT7I8-UD9GZ4YP",
+			"mastersecret": "92d9161543b5b45e08dccf53d95e6b6a252c28503b02d93dabf53f5f63a7408b44998738e3018879ec6cec21ed2d28dd54c5113a0372742b5e4a34c612b4e0f9",
+			"key": "0GZZ69LS-MOLEYLRI-R43FT7I8-UD9GZ4YP",
+			"secret": "92d9161543b5b45e08dccf53d95e6b6a252c28503b02d93dabf53f5f63a7408b44998738e3018879ec6cec21ed2d28dd54c5113a0372742b5e4a34c612b4e0f9"
 		}
 	},
 	"bot": {
