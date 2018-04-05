@@ -1029,10 +1029,10 @@
 	},
 	"exchanges": {
 		"poloniex": {
-			"masterkey": "0GZZ69LS-MOLEYLRI-R4YP",
-			"mastersecret": "92d9161543b5b45e08dccf53d9528503b02d93dabf53f5f63a7408b44998738e3018879ec6cec21ed2d28dd54c5113a0372742b5e4a34c612b4e0f9",
-			"key": "0GZZ69LS-MOLEYLRI-R43D9GZ4YP",
-			"secret": "92d9161543b5b45e08dccf53d93a7408b44998738e3018879ec6cec21ed2d28dd54c5113a0372742b5e4a34c612b4e0f9"
+			"masterkey": "0GZZ69YP",
+			"mastersecret": "92d9161543b5b45e08dccf53d952850354c5113a0372742b5e4a34c612b4e0f9",
+			"key": "0G43D9GZ4YP",
+			"secret": "92d9161543b5b45e08dccf53d72742b5e4a34c612b4e0f9"
 		}
 	},
 	"bot": {
